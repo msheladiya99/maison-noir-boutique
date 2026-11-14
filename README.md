@@ -1,6 +1,6 @@
-# Maison Noir — virtual fragrance boutique
+# ZEVARO — virtual fragrance boutique
 
-A demonstration storefront built with Next.js, TypeScript, React Three Fiber and Zustand. The brand and all six catalogue records are illustrative; they are not real inventory.
+A demonstration storefront built with Next.js, TypeScript, React Three Fiber and Zustand. The six product names and images were supplied by the owner, who set each 50 ml product price at ₹299. Product information not supplied by the owner is marked as unconfirmed. Inventory is not connected.
 
 ## Run locally
 
@@ -15,7 +15,7 @@ Requirements: Node.js 20+. Run `npm install` and `npm run dev`, then open http:/
 
 ## Important implementation limits
 
-This is a working **prototype**, not a production-ready e-commerce backend. It uses procedural 3D geometry and a local sample catalogue. It does not include PostgreSQL/Prisma, inventory, authentication, admin, real orders, order confirmation, payment processing or verification, email, uploads, server-side pricing, fulfillment, or production SEO. The checkout is intentionally disabled rather than simulating a payment. Camera navigation is guided/orbit-based rather than free-roaming collision-based. The billing counter is a simple procedural scene. A real deployment requires those systems, security review, legal policies, accessible alternatives, validated product content, and payment provider credentials and webhooks. The imagery is AI-generated. 
+This is a working **prototype**, not a production-ready e-commerce backend. It uses procedural 3D geometry and a local catalogue. It does not include PostgreSQL/Prisma, inventory, authentication, admin, real orders, order confirmation, payment processing or verification, email, uploads, server-side pricing, fulfillment, or production SEO. The checkout is intentionally disabled rather than simulating a payment. Camera navigation is guided/orbit-based rather than free-roaming collision-based. The billing counter is a simple procedural scene. A real deployment requires those systems, security review, legal policies, accessible alternatives, validated product content, and payment provider credentials and webhooks. The product imagery was supplied by the user. 
 
 ## Verification
 
